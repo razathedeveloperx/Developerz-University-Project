@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,500&family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="imgs/developerz-university.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+    <!-- Blog -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="imgs/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nemo. Dignissimos voluptatibus maiores ad similique quaerat quidem harum. Earum laboriosam repellendus hic nulla tenetur eius, recusandae quibusdam deleniti officiis vel nesciunt est ea perspiciatis sit beatae error soluta! Ratione cumque officiis animi voluptatem nihil consectetur incidunt vero voluptas natus! Sequi excepturi totam culpa quaerat cumque. Perferendis tenetur commodi magnam saepe, unde, corrupti dolorum architecto accusantium velit illo aliquid officia distinctio maiores explicabo, praesentium numquam quasi inventore odio! Odio, tempore? Iste quisquam pariatur, illum non deleniti consectetur error esse quia delectus omnis doloremque inventore, facere velit ullam accusamus qui corrupti asperiores?</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, saepe non necessitatibus unde corporis libero voluptatibus est sed assumenda atque! Officia eum minima quia quo cumque. Soluta non fuga error. consectetur adipisicing elit. Error facilis quasi nostrum deserunt neque beatae eveniet? Laboriosam rerum deserunt quasi corporis hic eos, vero, obcaecati et in cupiditate vel? Accusamus?</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet conse kir  Lorem ipsum, dolor sit amet consectetur adipisicing elit. At fuga voluptate voluptatum aliquid exercitationem ut, id delectus, earum quam fugit officia omnis! Explicabo in assumenda maxime! Esse exercitationem quaerat quasi.ctetur adipisicing elit. Quaerat sapiente est, aperiam laudantium, vitae recusandae necessitatibus quia reprehenderit quibusdam maiores suscipit officia maxime aliquam. Facilis modi sed aut officia quam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugit quidem, alias ab rem unde dolorem voluptatem. Excepturi suscipit natus magnam ea perferendis. Nostrum magnam illo, sunt repellendus minus sint!
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form ">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">  
+                        </textarea>
+                        <button type="submit" class="visit-btn red-btn" >
+                                POST COMMENT
+                        </button>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>81</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>50</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>52</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>24</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- --Footer--- -->
+    
+    <section class="footer">
+        <h4>About me</h4>
+        <p>I’m a developer and creative designer who enjoys building websites from the ground up. For my university website project, I used custom coding to create a clean, functional site that’s easy to navigate. Every aspect of the site, from design to functionality, was hand-coded to deliver a seamless user experience.
+
+            I’m always open to learning and taking on new challenges. If you’re interested in my work or want to collaborate, feel free to get in touch!</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made By razathedeveloperx <i class="fa-solid fa-bolt"></i> --</p>
+    </section>
+
+
+    <!--JavaScript For Toggle Menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+
+</body>
+
+</html>
